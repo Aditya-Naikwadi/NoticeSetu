@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+  #noticesetu-qr-poster,
+  #noticesetu-qr-poster * {
+    visibility: visible !important;
+  }
+  #noticesetu-qr-poster {
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 24px !important;
+    background: #ffffff !important;
+    box-shadow: none !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
+

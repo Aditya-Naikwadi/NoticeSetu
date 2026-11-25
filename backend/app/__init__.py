@@ -1,0 +1,2 @@
+"""NoticeSetu backend package."""
+

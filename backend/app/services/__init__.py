@@ -1,0 +1,2 @@
+"""NoticeSetu core domain services."""
+

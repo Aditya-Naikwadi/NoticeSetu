@@ -1,0 +1,2 @@
+"""NoticeSetu HTTP route modules."""
+

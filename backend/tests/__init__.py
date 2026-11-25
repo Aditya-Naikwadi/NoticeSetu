@@ -1,0 +1,2 @@
+"""NoticeSetu backend test suite."""
+

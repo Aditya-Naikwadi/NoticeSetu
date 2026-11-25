@@ -1,0 +1,29 @@
+# Environment & secrets (preserve .env.example templates)
+.env
+.env.*
+!.env.example
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / Frontend
+node_modules/
+.next/
+out/
+dist/
+build/
+*.tsbuildinfo
+npm-debug.log*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
+
